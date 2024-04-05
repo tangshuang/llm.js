@@ -1,9 +1,9 @@
 {
-  "name": "llm.js",
+  "name": "node-llm",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
-  "repository": "https://github.com/tangshuang/llm.js.git",
+  "repository": "https://github.com/tangshuang/node-llm.git",
   "author": "tangshuang <mail@tangshuang.net>",
   "license": "MIT",
   "dependencies": {

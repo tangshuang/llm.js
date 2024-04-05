@@ -1,20 +1,20 @@
-# LLM.js
+# NODE-LLM
 
 LLMs NodeJS addon.
-You can use a LLM easily in nodejs or electron application.
+Run your LLM easily in nodejs or electron application.
 
 ## Usage
 
 Before installation, make sure your device environment is able to compile c++ source code. We will use cmake-js to build a .node file.
 
 ```
-npm i llm.js
+npm i node-llm
 ```
 
 Simple usage:
 
 ```js
-import { Chat } from 'llm.js';
+import { Chat } from 'node-llm';
 
 const chat = new Chat({
   modelPath: path.resolve(__dirname, '../llms/chatglm3-6b.q4_0.bin'),
@@ -44,7 +44,7 @@ chat.prompt('What is RAG?', {
 Session usage:
 
 ```js
-import { Session } from 'llm.js';
+import { Session } from 'node-llm';
 
 const session = new Session({
   modelPath: path.resolve(__dirname, '../llms/chatglm3-6b.q4_0.bin'),

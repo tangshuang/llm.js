@@ -1,0 +1,15 @@
+{
+  "name": "llm.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/tangshuang/llm.js.git",
+  "author": "tangshuang <mail@tangshuang.net>",
+  "license": "MIT",
+  "dependencies": {
+    "chatglmjs": "^0.0.11",
+    "level-rocksdb": "^5.0.0",
+    "node-llama-cpp": "^2.8.9",
+    "uuid": "^9.0.1"
+  }
+}

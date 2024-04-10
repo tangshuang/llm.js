@@ -130,7 +130,7 @@ session.chat(message, {
 
 ## Engines
 
-- [chatglm](https://github.com/li-plus/chatglm.cpp): [ggml](https://www.modelscope.cn/models/tangshuang/chatglm3-6b-ggml/files)
+- [chatglm](https://github.com/li-plus/chatglm.cpp): [chatglm3-6b-ggml](https://www.modelscope.cn/models/tangshuang/chatglm3-6b-ggml/files) [codegeex2-6b-ggml](https://modelscope.cn/models/tangshuang/codegeex2-6b-ggml/files)
 - [llama](https://github.com/ggerganov/llama.cpp): [guff](https://huggingface.co/TheBloke?search_models=gguf)
 
 ## MIT License
